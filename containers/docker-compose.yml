@@ -5,8 +5,8 @@ services:
         image: madc
         container_name: madc
         volumes:
-            - /data/madc_aws_docker/mADC/config/flask/:/config
-            - /data/madc_aws_docker/mADC/studies/:/studies
+            - /root/madc_aws_docker/config/flask/:/config
+            - /root/madc_aws_docker/studies/:/studies
         environment:
             - GUNICORN_WORKERS=1
             - CELERY_WORKERS=1
