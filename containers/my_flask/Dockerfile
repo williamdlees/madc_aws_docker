@@ -1,6 +1,6 @@
 FROM python:3.10-bullseye
 
-ARG backend_repo_url="https://github.com/yaarilab/Minimal_ADC.git"
+ARG backend_repo_url="https://github.com/williamdlees/Minimal_ADC.git"
 RUN \ 
   rm -rf /app && \
   apt-get update && \
