@@ -1,4 +1,4 @@
-FROM python:3.10-bullseye
+FROM python:3.13-trixie
 
 ARG backend_repo_url="https://github.com/williamdlees/Minimal_ADC.git"
 RUN \ 
